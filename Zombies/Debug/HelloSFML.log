@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (HelloSFML.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Player.cpp
+c:\users\joshl\onedrive\documents\c++\zombies\hellosfml\player.cpp(16): error C4716: 'Player::getLastHit': must return a value
+c:\users\joshl\onedrive\documents\c++\zombies\hellosfml\player.cpp(18): error C4716: 'Player::getCeter': must return a value
+c:\users\joshl\onedrive\documents\c++\zombies\hellosfml\player.cpp(20): error C4716: 'Player::getRotation': must return a value
+c:\users\joshl\onedrive\documents\c++\zombies\hellosfml\player.cpp(22): error C4716: 'Player::getSprite': must return a value
+c:\users\joshl\onedrive\documents\c++\zombies\hellosfml\player.cpp(14): error C4716: 'Player::hit': must return a value
