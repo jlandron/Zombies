@@ -8,7 +8,7 @@ int main()
 {
 	//The game will only be in one of four states as declared in this enumeration
 	enum class State {
-		PAUSED, LEVELING_UP, GAME_OVER, PLAYING;
+		PAUSED, LEVELING_UP, GAME_OVER, PLAYING
 	};
 	//Start game in GAME_OVER State
 	State state = STATE::GAME_OVER;
