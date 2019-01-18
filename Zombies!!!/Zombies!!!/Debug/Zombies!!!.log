@@ -1,0 +1,18 @@
+﻿  Zombies.cpp
+c:\users\joshl\onedrive\documents\c++\zombies!!!\zombies!!!\zombies.cpp(18): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\joshl\onedrive\documents\c++\zombies!!!\zombies!!!\zombies.cpp(19): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\joshl\onedrive\documents\c++\zombies!!!\zombies!!!\zombies.cpp(21): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\joshl\onedrive\documents\c++\zombies!!!\zombies!!!\zombies.cpp(118): warning C4552: '-': result of expression not used
+  Zombies!!!.vcxproj -> C:\Users\joshl\OneDrive\Documents\C++\Zombies!!!\Debug\Zombies!!!.exe

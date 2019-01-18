@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  Player.cpp
+c:\users\joshl\onedrive\documents\c++\zombies!!!\zombies!!!\player.h(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Zombies.cpp
+c:\users\joshl\onedrive\documents\c++\zombies!!!\zombies!!!\zombies.cpp(2): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...
