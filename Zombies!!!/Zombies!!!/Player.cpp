@@ -129,6 +129,7 @@ void Player::update(float elapsedTime, Vector2i mousePosition) {\
 	float angle = (atan2(mousePosition.y - m_Resolution.y / 2, 
 					mousePosition.x - m_Resolution.x / 2) 
 					* 180) / 3.141;
+	m_Sprite.setRotation(angle);
 }
 void Player::upgradeSpeed() {
 	m_Speed += (START_HEALTH * 0.2);
