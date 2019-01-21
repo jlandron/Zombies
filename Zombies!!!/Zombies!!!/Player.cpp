@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "Player.h"
+#include "TextureHolder.h"
 
 using namespace sf;
 
@@ -9,8 +10,7 @@ Player::Player() {
 	m_Speed = START_SPEED;
 	m_MaxHealth = START_HEALTH;
 	//load the needed texture
-	m_Texture.loadFromFile("graphics/player.png");
-	m_Sprite.setTexture(m_Texture);
+	m_Sprite = Sprite(TextureHolder::GetTexture("graphics/player.png"));
 	//set the center of the sprite based on the image
 	m_Sprite.setOrigin(25, 25);
 }

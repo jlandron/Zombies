@@ -1,5 +1,5 @@
 #include "pch.h"
-#include "Arena.h"
+#include "Zombies.h"
 #include "SFML/Graphics.hpp"
 
 using namespace sf;
@@ -66,3 +66,4 @@ int createBackground(VertexArray& rVA, IntRect arena) {
 
 	return TILE_SIZE;
 }
+
